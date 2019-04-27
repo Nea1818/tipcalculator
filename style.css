@@ -11,7 +11,8 @@ body {
   padding: 60px;
   box-sizing: border-box;
   background: #f9f9f9;
-  box-shadow: 0 10px 15px -8px #000;
+  border: solid 3px #f56b2a;
+  box-shadow: 0 15px 15px -8px #000;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -41,6 +42,9 @@ form select {
   padding: 8px;
   margin: 10px 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 form input[type="text"] {
@@ -51,11 +55,15 @@ button {
   background: #ff6600;
   color: white;
   border: none;
-  border-bottom: solid 4px #4c2827;
+  border-bottom: solid 4px #f56b2a;
   text-transform: uppercase;
   font-size: 18px;
   padding: 20px 30px;
   width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 button:hover {
