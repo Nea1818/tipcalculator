@@ -7,7 +7,7 @@ body {
 
 #container {
   width: 400px;
-  margin: 50px auto 0;
+  margin: 60px auto 60px;
   padding: 60px;
   box-sizing: border-box;
   background: #f9f9f9;
